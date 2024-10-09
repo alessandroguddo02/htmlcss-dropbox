@@ -125,10 +125,16 @@ h1 {
 
 
 
-.customer-brand>div {
+.customer-brand > div {
     width: calc(100% / 3);
     height: calc(100vw / 3);
 
+}
+.column{
+    gap: 20px;
+}
+.column > div{
+    width: calc((100% - 40px) / 3);
 }
 
 /*footer*/
