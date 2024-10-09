@@ -70,8 +70,10 @@ nav{
     justify-content: center;
     align-items: center;
 }
-a {
+bitton a {
     display: block;
+    color: var(--color-white);
+    background-color: var(--color-blue);
 }
 
 
