@@ -17,7 +17,7 @@
 /*reset*/
 * {
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0 ;
     padding: 0;
 }
 
@@ -33,23 +33,45 @@
 
 
 /*general*/
+.margin-header {
+    margin-top: 120px;
+}
 
 .container {
     max-width: 1200px;
+    margin: 0 auto;
 }
 
 .small-container {
     max-width: 1000px;
+    margin: 0 auto;
+}
+ul li{
+    padding: 20px;
+    
 }
 
 
-
-ul{
+ul {
     list-style: none;
 }
+
 /*header*/
-header{
+header {
     background-color: var(--color-white);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+nav{
+    justify-content: center;
+    align-items: center;
+}
+a {
+    display: block;
 }
 
 
@@ -60,41 +82,73 @@ header{
 
 
 
-
-
+h1 {
+    font-size: 3em;
+}
 
 /*main*/
 #jumbotron,
-#call-to-action{
+#call-to-action {
     background-color: var(--color-light-blue)
 }
 
+.image img {
+    width: 100%;
+    display: block;
+}
+
+.jumbo {
+    position: relative;
+    top: 70px;
+}
+
+#plans {
+    margin-top: 100px;
+}
+
+.brand {
+    width: 50%;
+}
 
 
 
-
-
-
-
-.left{
+.content {
     width: 30%;
 }
 
-.right{
+.image {
     width: 70%;
 }
 
-/*footer*/
 
+
+
+
+
+.customer-brand>div {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+
+}
+
+/*footer*/
+footer {
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    padding: 20px 0px;
+}
 
 
 
 /*flex-utility*/
-.d-flex{
+.d-flex {
     display: flex;
 }
 
-.space-between{
+.space-between {
     justify-content: space-between;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
