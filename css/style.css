@@ -46,7 +46,7 @@
     max-width: 1000px;
     margin: 0 auto;
 }
-ul li{
+header ul li{
     padding: 20px;
     
 }
@@ -120,8 +120,13 @@ h1 {
     width: 70%;
 }
 
+main ul{
+    padding:5px 0px;
+}
 
-
+main a{
+    text-decoration: none;
+}
 
 
 
@@ -137,6 +142,14 @@ h1 {
     width: calc((100% - 40px) / 3);
 }
 
+.inner-title{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.inner-main{
+    line-height: 1.8;
+}
 /*footer*/
 footer {
     background-color: var(--color-dark);
@@ -157,4 +170,8 @@ footer {
 
 .flex-wrap {
     flex-wrap: wrap;
+}
+
+.align-self{
+    align-self: flex-end;
 }
