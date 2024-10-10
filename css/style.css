@@ -51,6 +51,7 @@ span{
 header ul li{
     padding: 20px;
 }
+
 header ul li:hover{
     border-bottom: 2px solid var(--color-dark);
     font-weight: bold;
@@ -141,9 +142,7 @@ a{
     margin-top: 100px;
 }
 
-.brand {
-    width: 50%;
-}
+
 
 .content {
     width: 30%;
@@ -167,9 +166,19 @@ main a{
     width: calc(100% / 3);
     height: calc(100vw / 3);
     
-
-
 }
+
+.brand {
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand img{
+    width: 70%;
+}
+
 .column{
     gap: 20px;
 }
@@ -185,6 +194,7 @@ main a{
 .inner-main{
     line-height: 1.8;
     padding: 15px;
+    height: 100%;
 }
 
 .check{
@@ -249,6 +259,11 @@ main a{
 .image-container{
     width: 200px;
 }
+
+.special{
+    color: var(--color-contrast);
+    font-size: 3em;
+}
 /*footer*/
 footer {
     color: var(--color-white);
@@ -291,10 +306,21 @@ footer {
 .p-30{
     padding: 30px 0;
 }
-
+.p-80{
+    padding: 80px 0px;
+}
 .pl-20{
     padding-left: 20px;
 }
+
+.pb-30{
+    padding-bottom: 30px;
+}
+
+.m-top{
+    margin-top: 50px;
+}
+
 .answer {
     display: none;
 }
